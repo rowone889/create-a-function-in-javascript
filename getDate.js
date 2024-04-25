@@ -1,6 +1,5 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-var pattern = {};
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const minNumber = arr => Math.min(...arr);
-const arrayContains = (arr, element) => arr.includes(element);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+var arr3 = "jones".split('');
+const uniqueArray = arr => [...new Set(arr)];
+function myAPITS(someString: string, someNum: number) { ... };
+console.log( "A" - "B" + 2);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
