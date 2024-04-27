@@ -1,5 +1,6 @@
-var arr3 = "jones".split('');
-const uniqueArray = arr => [...new Set(arr)];
-function myAPITS(someString: string, someNum: number) { ... };
-console.log( "A" - "B" + 2);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log(typeof typeof 1);
+const repositoryRootPath = path.resolve(__dirname, '..');
