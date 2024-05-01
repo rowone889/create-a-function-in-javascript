@@ -1,3 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
