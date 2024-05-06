@@ -1,3 +1,3 @@
-const channelName = getChannelName(channel);
-const fullName = name || 'buddy';
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+var arr2 = arr1.reverse();
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
