@@ -1,3 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const isArray = (arr) => Array.isArray(arr);
-const repositoryRootPath = path.resolve(__dirname, '..');
+const randomString = () => Math.random().toString(36).slice(2);
+const channel = getChannel(computedAppVersion);
