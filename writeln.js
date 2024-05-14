@@ -1,1 +1,1 @@
-var arr1 = "john".split('');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
