@@ -1,1 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const channelName = getChannelName(channel);
