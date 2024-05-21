@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const stringReverse = str => str.split("").reverse().join("");
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+var c = new Counter(); c.add(); c.add(); c.add();
