@@ -1,1 +1,2 @@
-var DELIM_SIZE = 4;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
