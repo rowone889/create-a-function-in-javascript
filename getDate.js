@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isEmptyArray = arr => !arr.length;
