@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const isEmptyArray = arr => !arr.length;
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+var pattern = {};
