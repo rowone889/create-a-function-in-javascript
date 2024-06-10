@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
