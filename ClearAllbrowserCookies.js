@@ -1,2 +1,1 @@
-console.log( "A" - "B" + "2");
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
