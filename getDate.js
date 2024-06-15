@@ -1,2 +1,1 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var pattern = {};
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
