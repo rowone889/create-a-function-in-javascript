@@ -1,1 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
+const uniqueArray = arr => [...new Set(arr)];
+var arr2 = arr1.reverse();
