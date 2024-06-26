@@ -1,3 +1,2 @@
-const toggleBool = () => (bool = !bool);
-const getRandomBoolean = () => Math.random() >= 0.5;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log( "A" - "B" + "2");
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
