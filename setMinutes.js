@@ -1,2 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-var arr2 = arr1.reverse();
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log(typeof typeof 1);
