@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const arrayContains = (arr, element) => arr.includes(element);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
