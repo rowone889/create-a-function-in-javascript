@@ -1,3 +1,2 @@
-console.log(1 +  "2" + "2");
-const merge = Object.assign({}, obj1, obj2);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isArray = (arr) => Array.isArray(arr);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
