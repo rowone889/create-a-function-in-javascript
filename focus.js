@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const updated = numbers.filter(element => element > 6);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
