@@ -1,1 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
