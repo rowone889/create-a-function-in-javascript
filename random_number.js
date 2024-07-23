@@ -1,1 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const merge = (a, b) => [...a, ...b];
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
