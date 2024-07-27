@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-var arr1 = "john".split('');
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const channel = getChannel(computedAppVersion);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("1 && 2 = "+(1 && 2));
