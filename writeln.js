@@ -1,1 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const results = await Promise.all(resultingPromises);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
