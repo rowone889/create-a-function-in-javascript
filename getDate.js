@@ -1,3 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const merge = [...new Set(a.concat(b))];
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const merge = Object.assign({}, obj1, obj2);
