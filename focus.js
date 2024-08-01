@@ -1,3 +1,3 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const updated = numbers.filter(element => element > 6);
-const randomBoolean = () => Math.random() >= 0.5;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const executableName = getExecutableName(channel, appName);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
