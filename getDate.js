@@ -1,3 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-console.log( "A" - "B" + 2);
-var DELIM_SIZE = 4;
+const merge = Object.assign({}, obj1, obj2);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
