@@ -1,1 +1,1 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
